@@ -1,0 +1,53 @@
+{
+  "status": "prepared upload staging; public repository and commit unverified",
+  "repository_planned": "https://github.com/hennergimpel/Automated_Research_004_Data_Tracking_Competition",
+  "file_count": 4,
+  "self_hash_excluded": true,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3765,
+      "sha256": "d0a4ed1900fb2cd1ac885f16a833ee19671630fe5007111034662520f8ed91b1"
+    },
+    {
+      "path": "workflow.md",
+      "bytes": 12145,
+      "sha256": "d856088cd36ea915975d9c02658c296dad7418375959bee98f2dc99f59d56d4b"
+    },
+    {
+      "path": "reproducibility.zip",
+      "bytes": 4843884,
+      "sha256": "fd38d6703c7f95a6db8893495df9a5be58d54135a7614d1eeeb1904f4cdeaf90"
+    },
+    {
+      "path": "release_manifest.json",
+      "sha256": null,
+      "reason": "Self-hash excluded to avoid recursion."
+    }
+  ],
+  "copies": [
+    {
+      "source": "13_Export/reproducibility.zip",
+      "destination": "reproducibility.zip",
+      "source_sha256": "fd38d6703c7f95a6db8893495df9a5be58d54135a7614d1eeeb1904f4cdeaf90",
+      "destination_sha256": "fd38d6703c7f95a6db8893495df9a5be58d54135a7614d1eeeb1904f4cdeaf90",
+      "byte_identical": true
+    },
+    {
+      "source": "11_Manuscript/T006_workflow_appendix.md",
+      "destination": "workflow.md",
+      "source_sha256": "d856088cd36ea915975d9c02658c296dad7418375959bee98f2dc99f59d56d4b",
+      "destination_sha256": "d856088cd36ea915975d9c02658c296dad7418375959bee98f2dc99f59d56d4b",
+      "byte_identical": true
+    }
+  ],
+  "archive_scan": {
+    "nested_archives_including_docx": true,
+    "personal_paths_or_secret_patterns_found": false,
+    "generic_program_files_path": "C:/Program Files/R/RStudio/resources/app/bin/quarto/bin/tools/pandoc.exe (tool default; not personal)",
+    "modifications": []
+  },
+  "scientific_content_changed": false,
+  "mathematics_rerun": false,
+  "new_license_selected": false
+}
